@@ -4,6 +4,11 @@ In this project, the goal is to predict the future housing market in Salt Lake C
 
 Incorporating real-world data from Federal Reserve Bank datasets for mortgage rate, unemployment rate and new privately-owned housing united authroized in permit-issuing places. For this portion of the analysis, Prophet model is used using historical data and external regressors like mortgage rates, permits, or unemployment to forecast future housing price.
 
+Dataset: 
+Permit: https://fred.stlouisfed.org/series/PERMIT
+Unemployment Rate: https://fred.stlouisfed.org/series/UNRATE
+30-Year Fixed Rate Mortgage Average: https://fred.stlouisfed.org/series/MORTGAGE30US
+
 ## Assumptions:
 
 External variables like interest rate, CPI, etc., influence housing prices in a stable way. Without this assumption, correlation ≠ prediction
