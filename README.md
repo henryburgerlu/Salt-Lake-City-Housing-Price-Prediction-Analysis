@@ -11,6 +11,8 @@ Unemployment Rate: https://fred.stlouisfed.org/series/UNRATE
 
 30-Year Fixed Rate Mortgage Average: https://fred.stlouisfed.org/series/MORTGAGE30US
 
+Zillow: https://www.zillow.com/research/data/
+
 ## Assumptions:
 
 External variables like interest rate, CPI, etc., influence housing prices in a stable way. Without this assumption, correlation ≠ prediction
