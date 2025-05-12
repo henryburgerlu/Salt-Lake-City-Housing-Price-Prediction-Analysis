@@ -6,7 +6,9 @@ Incorporating real-world data from Federal Reserve Bank datasets for mortgage ra
 
 Dataset: 
 Permit: https://fred.stlouisfed.org/series/PERMIT
+
 Unemployment Rate: https://fred.stlouisfed.org/series/UNRATE
+
 30-Year Fixed Rate Mortgage Average: https://fred.stlouisfed.org/series/MORTGAGE30US
 
 ## Assumptions:
