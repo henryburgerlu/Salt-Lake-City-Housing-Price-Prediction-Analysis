@@ -21,11 +21,11 @@ The 24-month forecast is based on patterns learned from historical trends and si
 
 There are no major economic or political shocks	Pandemics, wars, etc., would break the model
 
-We incorporate real-time mortgage rates, unemployment, housing inventory, and permit data
+We incorporate mortgage rates, unemployment, housing inventory, and permit data.
 
 The model accounts for yearly seasonality but not daily or weekly trends, which are typically irrelevant for long-term housing forecasts.
 
-Model won’t capture luxury vs. entry-level divergence unless included explicitly. 
+Price tier effects are averaged or segmented separately	if using averages, model won’t capture luxury vs. entry-level divergence unless included explicitly.
 
 ## Approach:
 
@@ -47,8 +47,10 @@ Forecasted Price Growth The model predicts an average compound annual growth rat
 
 Macroeconomic Sensitivity Price trends are sensitive to mortgage rates and unemployment levels. Sustained low interest rates and stable employment are likely to support further appreciation in home values.
 
-Supply-Side Influence Building permits serve as a proxy for future housing supply. An increase in permitting activity may apply downward pressure on price growth, signaling market stabilization.
+Supply-Side Influence Building permits serve as a proxy for future housing supply. Building permits are included as a national supply-side proxy, held constant at the most recent observed value under a stable macroeconomic baseline assumption.
 
-For buyers: If mortgage rates remain stable, locking in a purchase now may be more financially prudent than waiting in hopes of a price drop that the model does not project.
+For buyers: 
+If mortgage rates remain stable, locking in a purchase now may be more financially prudent than waiting in hopes of a price drop that the model does not project.
 
-For investors: The relatively narrow forecast confidence intervals in the first 12 months suggest lower uncertainty in short-term price trends. This makes the market attractive for investors seeking mid-term capital gains or rental portfolio expansion.
+For investors: 
+The relatively narrow forecast confidence intervals in the first 12 months suggest lower uncertainty in short-term price trends. This makes the market attractive for investors seeking mid-term capital gains or rental portfolio expansion.
